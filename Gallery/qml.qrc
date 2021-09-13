@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>icon.png</file>
+        <file>icon1.png</file>
+        <file>icon2.jpeg</file>
+        <file>icon2.png</file>
+        <file>icon3.png</file>
+        <file>icon4.png</file>
+        <file>icon5.png</file>
+        <file>icon6.png</file>
+        <file>Gallery.pro</file>
+        <file>img.png</file>
+        <file>../../Pictures/space.jpg</file>
+        <file>../../Pictures/rocket.png</file>
+    </qresource>
+</RCC>
