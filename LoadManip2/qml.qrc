@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Manager.qml</file>
+        <file>Page1.qml</file>
+        <file>Page2.qml</file>
+        <file>Page3.qml</file>
+        <file>Page4.qml</file>
+        <file>Page5.qml</file>
+        <file>Page6.qml</file>
+        <file>Page7.qml</file>
+        <file>Page8.qml</file>
+        <file>Page9.qml</file>
+        <file>Page10.qml</file>
+        <file>Button.qml</file>
+    </qresource>
+</RCC>
