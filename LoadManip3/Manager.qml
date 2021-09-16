@@ -1,4 +1,4 @@
- import QtQuick 2.0
+import QtQuick 2.0
 Item {
     id:manager
     property int val:0
@@ -10,23 +10,28 @@ Item {
         id:load
         width: parent.width
         height: parent.height
-        
         source: headArray[0]
-        
     }
     Connections{
         ignoreUnknownSignals: true
         target:load.item
         function onNextBtn()
         {
-
-            val=plist.nextButton(val)
-            load.source=headArray[val]
+            plist.loadNext()
         }
         function onPrevBtn()
         {
-            val=plist.prevButton(val)
-            load.source=headArray[val]
+            plist.loadPrev()
+        }
+    }
+    Connections{
+        ignoreUnknownSignals: true
+        target: plist
+        function onGoNext(fnext){
+            load.source=fnext
+        }
+        function onGoPrev(fprev) {
+            load.source=fprev
         }
     }
 }
